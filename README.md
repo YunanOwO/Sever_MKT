@@ -1,6 +1,8 @@
 # Sever_MKT
 
-**Operating System Introduction**
+## **Introduction**
+
+**Operating System** 
 
 - Ubuntu 22.04.3 LTS, codenamed "Jammy Jellyfish."
 
@@ -28,3 +30,21 @@
 **JupyterHub**
 
 - JupyterHub installed on the server for managing multiple user Jupyter Notebook instances.
+
+
+
+## **How to get access**
+
+Todo
+
+## **Software**
+
+### Python:
+
+Jupyterhub
+
+### R:
+
+todo
+
+
