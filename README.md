@@ -55,3 +55,7 @@ For a guide on common commands and operations in the Ubuntu system, you can refe
 
 - **Accessing <u>R Studio</u>**: To use R, enter `http://137.189.75.142:8787` in your browser.
 - Log in to R Studio using your existing system account credentials, formatted as `[name]-mkt-2`, along with your password.
+
+## Questions and Issues
+
+For any server or software-related queries or issues, please utilize the GitHub Issues interface on [this page](https://github.com/YunanOwO/Sever_MKT/issues). You can search for existing issues to find answers or create new ones to post your questions. This approach helps in efficiently tracking and resolving any problems or inquiries.
