@@ -31,20 +31,27 @@
 
 - JupyterHub installed on the server for managing multiple user Jupyter Notebook instances.
 
+**Ubuntu system**
+
+For a guide on common commands and operations in the Ubuntu system, you can refer to [this guide on Linux commands](https://scrp.econ.cuhk.edu.hk/guide/linux). This link provides additional resources and information that may be helpful for users new to the Ubuntu environment.
+
 
 
 ## **How to get access**
 
-Todo
+- **Requesting a Server Account**: To apply for a server account, you need to provide your name and email to the administrator. The format for the usernames will be `[name]-mkt-2`, so ensure to follow this format when submitting your details for account creation.
+- **Accessing <u>Storage Space</u>**: After your account is created, you can log in to your allocated storage space (default is 1TB) using SSH. The command for this is `ssh -[username]@http://137.189.75.142`, where you should replace `[username]` with your specific username that follows the `[name]-mkt-2` format.
 
-## **Software**
+### **Software**
 
-### Python:
+#### Python:
 
-Jupyterhub
+- **Using Jupyter Notebook for Python**: You can run your Python files through Jupyter Notebook. 
+- To get access, submit your requirements to the administrator. They will create a JupyterHub account for you with the username format `[name]-mkt-nb`.
+- **Accessing <u>JupyterHub</u>**: Access JupyterHub by entering `http://137.189.75.142` in your local browser. Log in using the provided username and create your own password. Once logged in, you'll be able to use Jupyter Notebook for your Python projects.
+- For Long Duration running, use the Linux **screen**. 
 
-### R:
+#### R:
 
-todo
-
-
+- **Accessing <u>R Studio</u>**: To use R, enter `http://137.189.75.142:8787` in your browser.
+- Log in to R Studio using your existing system account credentials, formatted as `[name]-mkt-2`, along with your password.
