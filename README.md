@@ -41,7 +41,7 @@ For a guide on common commands and operations in the Ubuntu system, you can refe
 
 ***It is required to connect to the school's wired network and use a computer registered with the school.**
 
-- **Requesting a Server Account**: To apply for a server account, you need to provide your name and email to the administrator. The format for the usernames will be `[name]-mkt-2`, so ensure to follow this format when submitting your details for account creation.
+- **Requesting a Server Account**: To apply for a server account, you need to provide your name and email to the administrator. The format for the usernames will be `[name]-mkt-2`.
 - **Accessing <u>Storage Space</u>**: After your account is created, you can log in to your allocated storage space (default is 1TB) using SSH. The command for this is `ssh -[username]@http://137.189.75.142`, where you should replace `[username]` with your specific username that follows the `[name]-mkt-2` format.
 
 ### **Software**
