@@ -119,7 +119,25 @@ bashCopy code
 matlab -r "run('path/to/your_script.m')"
 ```
 
+### Changing Your Server Account Password
 
+#### Opening the Terminal
+
+Use SSH into the server using the provided admin credentials: `ssh -[username]@http://137.189.75.142`
+
+#### Changing the Password
+
+1. **Enter the Change Password Command**:
+   - Type the command `passwd` in the terminal, then press Enter.
+
+2. **Enter Your Current Password**:
+   - The system will prompt you to enter your current password. Type it in and press Enter.
+   - Note: For security reasons, the characters you type will not be displayed on the screen.
+
+3. **Set Your New Password**:
+   - Enter your new password and press Enter.
+   - You will be asked to re-enter the new password for confirmation. Type it again and press Enter.
+  
 
 ### Visual Guides
 
