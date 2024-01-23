@@ -123,15 +123,15 @@ Below are the visual guides to assist with logging in and using the server's sof
 
 **JupyterHub Login Interface:**
 
-![截屏2024-01-23 11.37.31](JupyterHub Login.png)
+![截屏2024-01-23 11.37.31](JupyterHub_Login.png)
 
 **Creating or Switching Kernels in JupyterHub:**
 
-![截屏2024-01-23 13.01.40](Switching Kernels.png)
+![截屏2024-01-23 13.01.40](Switching_Kernels.png)
 
 **RStudio Login Interface:**
 
-![RStudio Login](RStudio Login.png)
+![RStudio Login](RStudio_Login.png)
 
 ## Questions and Issues
 
