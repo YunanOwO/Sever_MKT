@@ -28,7 +28,7 @@ The server provides a suite of software for various computing needs.
 
 ### Environment and Packages:
 
-[Google doc,](https://docs.google.com/document/d/1T03q5eCnl2ctW3ACA2Iqs5yTH_H2VUOxEfLJL2Zp2sA/edit?usp=sharing)
+[Google doc](https://docs.google.com/document/d/1T03q5eCnl2ctW3ACA2Iqs5yTH_H2VUOxEfLJL2Zp2sA/edit?usp=sharing)
 
 ### Python
 
