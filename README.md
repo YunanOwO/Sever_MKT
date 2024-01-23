@@ -1,60 +1,137 @@
-# Sever_MKT
+# Server_MKT
 
-## **Introduction**
+## Introduction
 
-**Operating System** 
+This document provides an overview of the Server_MKT specifications and guidelines for accessing and utilizing the software and resources available.
 
-- Ubuntu 22.04.3 LTS, codenamed "Jammy Jellyfish."
+### Specifications
 
-**Memory**
+| Component        |                                                      Details |
+| ---------------- | -----------------------------------------------------------: |
+| Operating System |                                           Ubuntu 22.04.3 LTS |
+| RAM              |                                                   257 GB RAM |
+| CPU              | Intel® Xeon® Gold 6348 CPU @ 2.60GHz<br>28 cores per socket, 2 sockets, supporting 112 threads |
+| Storage          |         `/dev/sdb1/disk1`: 15 TB<br>`/dev/sda1/disk2`: 15 TB |
+| GPU              |                                  2 x NVIDIA GeForce RTX 3090 |
 
-- 257 GB RAM.
+## How to Get Access
 
-**CPU**
+**Note:** Access to the server requires connection to the school's wired network and the use of a computer registered with the school.
 
-- Intel® Xeon® Gold 6348 CPU @ 2.60GHz.
-- 28 cores per socket, 2 sockets, supporting 112 threads.
+To obtain access credentials, please fill out the form provided by the administrator.
 
-**Storage**
+Form Link: [Insert Link Here]
 
-- `/dev/mapper/ubuntu--vg-ubuntu--lv`: Total capacity of 463 GB (281 GB used, 162 GB available).
-- `/dev/nvme0n1p2`: Total capacity of 2.0 GB.
-- `/dev/nvme0n1p1`: Total capacity of 1.1 GB.
-- `/dev/sdb1`: Total capacity of 15 TB (12 TB used).
-- `/dev/sda1`: Total capacity of 15 TB (154 GB used).
+## Software
 
-**GPU**
+The server provides a suite of software for various computing needs.
 
-- Two NVIDIA GeForce RTX 3090 graphics cards.
+### Python
 
-**JupyterHub**
+#### Basic
 
-- JupyterHub installed on the server for managing multiple user Jupyter Notebook instances.
+**Jupyterhub** is the recommended and most user-friendly platform for running Python files. Access it using the link below with the credentials obtained from the administrator. First-time login will prompt the creation of a user-defined password.
 
-**Ubuntu system**
+[Log in to Jupyterhub](http://137.189.75.142/hub/login)
 
-For a guide on common commands and operations in the Ubuntu system, you can refer to [this guide on Linux commands](https://scrp.econ.cuhk.edu.hk/guide/linux). This link provides additional resources and information that may be helpful for users new to the Ubuntu environment.
+#### Advanced Usage
+
+**Command Line:**
+
+Python can be run from the command line using Jupyterhub's terminal or by connecting to the server via SSH.
+
+SSH into the server using the provided admin credentials: `ssh -[username]@http://137.189.75.142`, then enter your password.
+
+To use Python in console mode, enter:
+
+```bash
+python
+```
+
+To run a Python script, use:
+
+```
+bashCopy code
+python file_path
+```
+
+##### For Long Duration Tasks
+
+- Utilize the `screen` command in Linux. Note that processes running for more than 24 hours on login nodes may be terminated.
+
+### R
+
+#### Basic
+
+**Jupyterhub** also serves as the recommended platform for running R scripts with similar access procedures as for Python.
+
+[Log in to Jupyterhub](http://137.189.75.142/hub/login)
+
+#### Advanced Usage
+
+**Browser:**
+
+For those who prefer the RStudio interface to Jupyterhub, access it using the system account through the following link:
+
+[Log in to RStudio](http://137.189.75.142:8787/)
+
+**Command Line:**
+
+Alternatively, use SSH and launch R in console mode with:
+
+```
+R
+```
+
+Run R in batch mode:
+
+```
+Rscript file_path
+```
+
+### MATLAB
+
+#### Basic
+
+**Jupyterhub** supports MATLAB. Log in using the link below to create a new MATLAB kernel or reference it within a Python file.
+
+[Log in to MATLAB](http://137.189.75.142/hub/login)
+
+#### Advanced Usage
+
+**Command Line:**
+
+Use SSH and launch MATLAB in console mode with:
+
+```
+bashCopy code
+matlab
+```
+
+To run your `.m` files:
+
+```
+bashCopy code
+matlab -r "run('path/to/your_script.m')"
+```
 
 
 
-## **How to get access**
+### Visual Guides
 
-***It is required to connect to the school's wired network and use a computer registered with the school.**
+Below are the visual guides to assist with logging in and using the server's software interfaces:
 
-### **Software**
+**JupyterHub Login Interface:**
 
-#### Python:
+![截屏2024-01-23 11.37.31](JupyterHub Login.png)
 
-- **Using Jupyter Notebook for Python**: You can run your Python files through Jupyter Notebook. 
-- To get access, submit your requirements to the administrator. They will create a JupyterHub account for you with the username format `[name]-mkt-nb`.
-- **Accessing <u>JupyterHub</u>**: Access JupyterHub by entering `http://137.189.75.142` in your local browser. Log in using the provided username and create your own password. Once logged in, you'll be able to use Jupyter Notebook for your Python projects.
+**Creating or Switching Kernels in JupyterHub:**
 
-#### R:
-- **Using Jupyter Notebook for R**: You can run your R files through Jupyter Notebook.
-- To get access is the same as python up there.
+![截屏2024-01-23 13.01.40](Switching Kernels.png)
 
-#### Matlab：
-Todo
+**RStudio Login Interface:**
+
+![RStudio Login](RStudio Login.png)
 
 ## Questions and Issues
 
