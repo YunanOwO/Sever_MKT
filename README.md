@@ -26,6 +26,10 @@ Form Link: [Insert Link Here]
 
 The server provides a suite of software for various computing needs.
 
+### Environment and Packages:
+
+[Google doc,](https://docs.google.com/document/d/1T03q5eCnl2ctW3ACA2Iqs5yTH_H2VUOxEfLJL2Zp2sA/edit?usp=sharing)
+
 ### Python
 
 #### Basic
@@ -95,7 +99,7 @@ Rscript file_path
 
 **Jupyterhub** supports MATLAB. Log in using the link below to create a new MATLAB kernel or reference it within a Python file.
 
-[Log in to MATLAB](http://137.189.75.142/hub/login)
+[Log in to Jupyterhub](http://137.189.75.142/hub/login)
 
 #### Advanced Usage
 
