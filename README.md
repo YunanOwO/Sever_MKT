@@ -20,7 +20,7 @@ This document provides an overview of the Server_MKT specifications and guidelin
 
 To obtain access credentials, please fill out the form provided by the administrator.
 
-Form Link: [https://forms.gle/r1VEWseAbRJziHku6]
+Form Link: [Google form](https://forms.gle/r1VEWseAbRJziHku6)
 
 ## Software
 
