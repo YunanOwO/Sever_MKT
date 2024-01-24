@@ -55,7 +55,6 @@ python
 To run a Python script, use:
 
 ```
-bashCopy code
 python file_path
 ```
 
