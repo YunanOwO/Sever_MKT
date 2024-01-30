@@ -14,6 +14,10 @@ This document provides an overview of the Server_MKT specifications and guidelin
 | Storage          |         `/dev/sdb1/disk1`: 15 TB<br>`/dev/sda1/disk2`: 15 TB |
 | GPU              |                                  2 x NVIDIA GeForce RTX 3090 |
 
+
+
+## Reminder
+The server is a shared resource within our department. While each user will have a private folder and environment, we urge everyone to exercise caution. Please refrain from storing or uploading unsafe resources and from running unverified code. This practice ensures the security and efficiency of the server for all users.
 ## How to Get Access
 
 **Note:** Access to the server requires connection to the school's wired network and the use of a computer registered with the school.
