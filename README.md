@@ -48,7 +48,7 @@ The server provides a suite of software for various computing needs.
 
 Python can be run from the command line using Jupyterhub's terminal or by connecting to the server via SSH.
 
-SSH into the server using the provided admin credentials: `ssh -[username]@http://137.189.75.142`, then enter your password.
+SSH into the server using the provided admin credentials: `ssh [username]@http://137.189.75.142`, then enter your password.
 
 To use Python in console mode, enter:
 
